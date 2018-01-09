@@ -1,0 +1,15 @@
+body
+{
+  /* 文字色を白に */
+  color: white;
+  /* 背景色を黒に */
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+span
+{
+  font-family: "Product Sans";
+  font-size: 12px;
+}
