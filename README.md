@@ -21,7 +21,7 @@ npm install -g electron-packager electron-prebuilt
 
 # カスタマイズ方法
 1. ソースコードを変更します
-2. `./publish.sh` を実行し、新しく生成された `clock.app` を古いものに差し替えます
+2. `./publish.sh` を実行し、新しく生成された `clock.app` で古いアプリケーションを上書きします
 
 # 不具合
 ## いつのまにかメニューバーからアイコンがいなくなる
