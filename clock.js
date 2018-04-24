@@ -1,7 +1,7 @@
 // 時計のメインとなる関数
 function clock () {
   // 曜日を表す各文字列の配列
-  const weeks = ['Sun', 'Mon', 'Thu', 'Wed', 'Thr', 'Fri', 'Sat']
+  const weeks = ['Sun', 'Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat']
   // 現在日時を表すインスタンスを取得
   let now = new Date()
   // 年
