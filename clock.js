@@ -25,9 +25,9 @@ function clock () {
   if (mi < 10) mi = `0${mi}`
   if (s < 10) s = `0${s}`
 
-  // HTML: <span id='clock_date'>(ココの日付文字列を書き換え)</span>
+  // HTML: <span id='clock_date'>(ここの日付文字列を書き換え)</span>
   document.getElementById('clock_date').innerHTML = y + '/' + mo + '/' + d + ' (' + w + ')'
-  // HTML: <span id='clock_time'>(ココの時刻文字列を書き換え)</span>
+  // HTML: <span id='clock_time'>(ここの時刻文字列を書き換え)</span>
   document.getElementById('clock_time').innerHTML = h + ':' + mi + ':' + s
   // HTML: <div id='clock_frame'> の内部要素のフォントサイズをウインドウサイズの10分の1ピクセルに設定
   document.getElementById('clock_frame').style.fontSize = window.innerWidth / 10 + 'px'

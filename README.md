@@ -1,28 +1,36 @@
 # desktop-clock-electron
+
 デスクトップに表示する小さな時計です。1680x1050(Mac Book Pro 13inch)で起動したときにうまい具合に右上に表示されるようになっています。
 
 # 動作確認環境
-- Node.js: v7.10.1
-- NPM: 4.2.0
+
+- Node.js: v10.13.0
+- NPM: 6.4.1
 - Electron: v1.4.13
 
 # 使い方
+
 ## アプリのパッケージング
+
 ```
-npm install -g electron-packager electron-prebuilt
+$ npm install --save-dev electron-packager electron-prebuilt
 ./publish.sh
 ```
 
 上記コマンドを実行すると、 `clock-darwin-x64/clock.app` が作成されます。このアプリケーションを `/Application` などに移してアプリケーションを利用してください。
 
 ## 全てのデスクトップ上で表示させる
+
 1. メニューバーから `Dockに表示する` を選んでclock.app をDockに表示させます
 2. Dockの clock.app を右クリックし `オプション > 割り当て先 > 全てのデスクトップ` をクリックします
 
 # カスタマイズ方法
+
 1. ソースコードを変更します
 2. `./publish.sh` を実行し、新しく生成された `clock.app` で古いアプリケーションを上書きします
 
 # 不具合
+
 ## いつのまにかメニューバーからアイコンがいなくなる
+
 起動時はメニューバーにアイコンがあるが、しばらくするといなくなる。終了したい時はアクティビティモニタなどから終了してください。

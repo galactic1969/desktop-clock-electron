@@ -8,8 +8,14 @@ body
   margin-top: 0px;
 }
 
-span
+div#clock_date, div#clock_time
 {
-  font-family: "Product Sans";
+  font-family: "Arial";
   font-size: 12px;
+  text-align: right;
+}
+
+div#clock_date
+{
+  padding-top: 2px;
 }
