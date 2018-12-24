@@ -22,14 +22,14 @@ app.on('window-all-closed', function () {
 app.on('ready', function () {
   // メイン画面の表示。ウィンドウの幅、高さを指定
   mainWindow = new BrowserWindow({
-    'width': 110,
+    'width': 120,
     'height': 30,
     'transparent': true,
     'frame': false,
     'alwaysOnTop': true
   })
   // 位置調整
-  mainWindow.setPosition(1577, -3)
+  mainWindow.setPosition(1567, -3)
   // HTML読み込み
   mainWindow.loadURL(`file://${__dirname}/index.html`)
   // クリックさせない
